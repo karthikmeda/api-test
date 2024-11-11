@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import SpotifyTrack from './SpotifyTrack';
+import SpotifyLyrics from './SpotifyLyrics';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Spotify Track Info</h1>
+      {/* Replace 'trackId' with an actual Spotify track ID */}
+      <SpotifyTrack/>
+      {/* <SpotifyLyrics /> */}
     </div>
   );
-}
+};
 
 export default App;
