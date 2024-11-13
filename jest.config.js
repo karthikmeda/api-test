@@ -1,4 +1,6 @@
 module.exports = {
+    preset: 'ts-jest/presets/default-esm', // If TypeScript is used
+    extensionsToTreatAsEsm: ['.js'],
     transform: {
       '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
     },
@@ -7,4 +9,4 @@ module.exports = {
     ],
     // Other Jest configuration options can go here
   };
-  
+ 
