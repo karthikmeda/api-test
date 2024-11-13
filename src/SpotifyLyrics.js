@@ -1,7 +1,8 @@
 // SpotifyLyrics.js
 import React from "react";
-import "./App.css"; // Ensure this points to your CSS file
+// import "./App.css"; // Ensure this points to your CSS file
 import axios from "axios"; // Import axios for HTTP requests
+
 
 class SpotifyLyrics extends React.Component {
     // Constructor to initialize state
