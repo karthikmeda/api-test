@@ -1,9 +1,9 @@
 // src/App.js
 import React from 'react';
-//import SpotifyMusic from './SpotifyMusic';
-import SongList from './SongList';
-//import SpotifyTrack from './SpotifyTrack';
-//import SpotifyLyrics from './SpotifyLyrics';
+//import SpotifyMusic from './SpotifyMusic.js';
+import SongList from './SongList.js';
+//import SpotifyTrack from './SpotifyTrack.js';
+//import SpotifyLyrics from './SpotifyLyrics.js';
 
 const App = () => {
   return (
