@@ -139,7 +139,8 @@ import "./SongList.css";
 
 function SongList() {
     const CLIENT_ID = "b174b09e83a04b26a4d3db03251215cc";
-    const REDIRECT_URI = "http://localhost:3000";
+    // const REDIRECT_URI = "http://localhost:3000";
+    const REDIRECT_URI = window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://karthikmeda.github.io/api-test';
     const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
     const RESPONSE_TYPE = "token";
 
